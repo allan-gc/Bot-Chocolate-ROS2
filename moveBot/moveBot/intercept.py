@@ -16,7 +16,7 @@ from moveit_msgs.srv import GetPositionIK
 from std_srvs.srv import Empty
 from rclpy.callback_groups import ReentrantCallbackGroup
 
-
+#test
 class Testing(Node):
     def __init__(self):
         super().__init__("fake_movegroup")
